@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #245243;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    }
+
+
+.sidebar ul li {
+    margin: 20px 0;
+    margin-left: 35px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    border-radius: 50%;
+    border: 5px solid #43a888; 
+    margin-bottom: 25px;
+}
+
+.article {
+    margin-left: 270px; 
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.article h1{
+    font-weight: 700;
+    font-size: 55px;
+}
+ .article h3{
+    margin-left: 25px;
+ }
+
+ .article h3 a{
+    color: black;
+ }
+ .article h3 a:hover{
+    color: #43a888;
+    text-decoration:underline;
+    }
+
+.button img{
+    height: 75px;
+}
+
+.article ol{
+    margin-top: 155px;
+    padding-top: 50px;
+}
+
+.article ol li{
+    list-style-type: disc;
+    font: bold;
+    font-size: 25px;
+}
+
+.article-p {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 275px;
+    font: bold;
+    
+}
